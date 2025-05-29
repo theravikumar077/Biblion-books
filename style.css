@@ -1,0 +1,581 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Now Display", Helvetica, sans-serif;
+    box-sizing: border-box;
+    }
+    
+    html,
+    body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(50, 48, 48);
+    }
+    
+    .nav{
+        padding: 10px 20px;
+        border-radius: 10px;
+        background-color: #BEBEBE;
+        display: flex;
+        padding-top: 10px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+
+
+        }
+        .nav h3{
+            font-weight: 500;
+            font-size: 16px;
+        }
+        .banner{
+            
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: black;
+            margin-top: 10px;
+            border-radius: 15px;
+            padding: 20px;
+            background-color: antiquewhite;
+        }
+        span{
+            font-size: 25px;
+            margin-left: 5px;
+        }
+        .ban h3{
+            margin-top: 20px;
+            font-size: 25px;
+            font-weight: 50;
+        }
+        .ban p{
+            margin-top: 20px;
+            font-family: italic sans-serif;
+
+        }
+        .ban img{
+            margin-top: 30px;
+            width: 350px;
+            border-radius: 20px;
+        }
+        .name{
+            padding: 10px 20px;
+            border-radius: 10px;
+            background-color: #BEBEBE;
+            display: flex;
+            padding-top: 10px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .se{
+                width: 100%;
+                display: flex;
+                color: black;
+                margin-top: 5px;
+                border-radius: 15px;
+                background-color: antiquewhite;
+                margin-bottom: -25px;
+            
+        }
+        .books{
+            width: 100%;
+            display: flex;
+            color: black;
+            margin-top: 10px;
+            border-radius: 15px;
+            padding: 20px;
+            background-color: antiquewhite;
+
+        }
+        .books2{
+            width: 100%;
+            display: flex;
+            color: black;
+            margin-top: 0px;
+           margin-bottom: 10px;
+            border-radius: 15px;
+            padding: 20px;
+            background-color: antiquewhite;
+
+        }
+        .img1 img{
+            display: flex;
+            width: 150px;
+            height: 200px;
+            border-radius: 10px;
+            background-position: center;
+            background-size: cover;
+        }
+        .ref1{
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+            margin-left: 10px;
+        }
+       .ref1 button,
+       .ref2 button,
+       .ref3 button,
+       .ref4 button,
+       .ref5 button
+       {
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 8px 20px;
+    border-radius: 100px;
+    background-color: #673600;
+    color: #fff;
+    border: none;
+margin-top: 30px;
+margin-left:px;
+    text-transform: uppercase;
+       }
+       .books .img2,.img3,.img4{
+        display: flex;
+        width: 150px;
+        height: 200px;
+        border-radius:20px;
+        background-position: center;
+        background-size: cover;
+        margin-left: 30px;
+       }
+
+       .ref2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 5px;
+       }
+       .img2 img{
+        border-radius: 10px;
+       }
+       .img3 img{
+        border-radius: 10px;
+       }.ref3{
+        margin-top: 30px;
+       }
+       .img4 img{
+        border-radius: 10px;
+       }
+       .ref4{
+        margin-top: 30px;
+       }
+
+
+       .books2 .img5 img{
+        width: 140px;
+        height: 200px;
+        border-radius:20px;
+       }
+       .books2 .ref5{
+        margin-top: 10px;
+        margin-left: 10px;
+       }
+       .search-bar {
+        margin: 20px auto;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .search-bar input {
+        padding: 10px;
+        width: 250px;
+        border-radius: 20px;
+        border: 1px solid #ccc;
+    }
+    .search-bar button {
+        padding: 10px 20px;
+        border-radius: 20px;
+        background-color: #673600;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    #searchResults {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .search-result-card {
+        background-color: antiquewhite;
+        border-radius: 10px;
+        padding: 15px;
+        width: 200px;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .search-result-card img {
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+    }
+    .search-result-card a {
+        display: inline-block;
+        margin-top: 10px;
+        color: white;
+        background-color: #673600;
+        padding: 8px 16px;
+        border-radius: 20px;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+       .contact{
+        padding-top: 1px;
+        background-color:antiquewhite;
+        width: 100%;
+        margin-top: 2px;
+        border-radius: 20px;
+    }
+    .contact h2{
+        margin-top: 15px;
+        margin-left: 20px;
+        color:black;
+        
+    }
+    .contact form{
+        display: flex;
+
+    }
+    .input-box{
+        margin-top: 5px;
+        background-color: transparent;
+
+    }
+.input-group-2{
+    margin-top: 50px;
+    margin-left: -220px;
+}
+.contact{
+    width: 100%;
+    height: 120px;
+}
+.contact button{
+    margin-top: 10px;
+    padding: 1em 2em;
+    background-color: grey;
+    border: none;
+    border-radius: 1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact button{
+    color: white;
+}
+
+
+
+
+.input-group-2{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: aquamarine;
+    box-shadow: 0 0 25px antiquewhite;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color:black;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.input-group-2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 50px rgb(212, 166, 107);
+}
+.input-group-2{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+}.input-group-2:nth-of-type(2){
+    background-color: black;
+    color:aqua;
+    border: 2px solid black;
+    box-shadow: 0 0 25px transparent;
+}.input-group-2:nth-of-type(2):hover{
+    box-shadow:  0 0 25px antiquewhite;
+    background-color: rgb(212, 166, 107);
+    color: black;
+
+}
+
+.footer{
+    margin-top: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: antiquewhite;
+    }.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: black;
+    }.footer .social a{
+    font-size: 25px;
+    color: black;
+    border: 2px solid black;
+    text-decoration: none;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: 0.3s ease-in-out;
+    }.footer .social a:hover{
+    transform: scale(1.2)translate(-10px);
+    background-color: black;
+    color:#e4b381;
+    box-shadow:0 0 25px black;
+    }.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6PX;
+    margin-bottom: 0;
+    text-align: center;
+    }.footer ul li a{
+    color: black;
+    border-bottom: 3px solid transparent;
+    transition: 0.3 ease-in-out;
+    }.footer ul li a:hover{
+    border-bottom: 3px solid black;
+    
+    }
+    .footer p{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: initial;
+    }
+    .footer span{font-weight: 200;
+    
+    }.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+    
+    }.footer .copyright{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    color:black;
+    }
+    
+
+
+    /* --- Your existing CSS here --- */
+
+/* Add this at the END of your CSS */
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav h3 {
+        font-size: 14px;
+        text-align: center;
+    }
+    .banner {
+        flex-direction: column;
+        text-align: center;
+    }
+    .ban img {
+        /* width: 90%; */
+        height: auto;
+    }
+    .ban h3 {
+        font-size: 20px;
+    }
+    .ban p {
+        font-size: 14px;
+    }
+    .books {
+        height: 1000px;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .img1 img
+    {
+        margin-left: 10px;
+        display: flex;
+    }
+    .ref1   {
+       margin-top:-170px ;
+        margin-left: 170px;
+    }
+    .img2 img{
+        margin-top: 100px;
+        margin-left: -12px;
+    }
+    .ref2{
+    margin-top: -90px;
+        margin-left: 180px;
+    }
+    .img3 img{
+        margin-top: 120px;
+        margin-left: -12px;
+    }
+    .ref3{
+        margin-top: -70px;
+            margin-left: 180px;
+        }
+        .img4 img{
+            display: flex;
+            margin-top:140px ;
+            height: 218px;
+            width: 150px;
+            margin-left:-12px ;
+        }
+       .ref4{
+        margin-top: -50px;
+            margin-left: 180px;
+       }
+       .books2{
+        display: flex;
+       }
+       .books2 .img5{
+        margin-left: 20px;
+       }
+       .img5 img{
+        display: flex;
+        height: 218px;
+        width: 150px;
+  
+    }
+       .ref5{margin-top: 10px;
+margin-left: 17px;
+       }
+
+    .contact{
+        display: flex;
+    
+    }
+    .contact h3{
+        margin-top: 25px;
+        margin-left: 1px;
+    }
+    .contact button{
+        margin-left: -7px;
+        margin-top: 25px;
+    }
+    .input-box {
+        width: 90%;
+    }
+    .input-group-2 {
+        margin-left: 0;
+        margin-top: 20px;
+        width: auto;
+    }
+    .footer {
+        padding: 20px 10px;
+        text-align: center;
+    }
+    .footer .social a {
+        margin: 5px;
+    }
+    .footer .copyright {
+        font-size: 14px;
+    }
+
+.books2{
+    margin-top: -30px;
+}
+}
+
+
+.search-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.search-container input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #673600;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0 20px;
+}
+
+.result-item {
+    background-color: antiquewhite;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+    transition: 0.3s;
+}
+
+.result-item:hover {
+    background-color: #e4b381;
+}
+
+/* For very small devices */
+@media (max-width: 480px) {
+    .ban h3 {
+        font-size: 18px;
+    }
+    .ban p {
+        font-size: 12px;
+    }
+    .img1 img,
+    .img2 img,
+    .img3 img {
+        width: 150px;
+        height: 220px;
+    }
+}
+
+
+/* Responsive for phones */
+@media (max-width: 480px) {
+    .search-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-container input,
+    .search-container button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .search-container button {
+        margin-top: 10px;
+    }
+
+    .result-item {
+        font-size: 14px;
+    }
+}
